@@ -1,0 +1,740 @@
+[
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBitQuery/TripleBitQuery.o",
+   "TripleBitQuery/TripleBitQuery.cpp"
+  ],
+  "file": "TripleBitQuery/TripleBitQuery.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/ObjectPool.o",
+   "TripleBit/ObjectPool.cpp"
+  ],
+  "file": "TripleBit/ObjectPool.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/SPARQLLexer.o",
+   "TripleBit/SPARQLLexer.cpp"
+  ],
+  "file": "TripleBit/SPARQLLexer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/StatisticsBuffer.o",
+   "TripleBit/StatisticsBuffer.cpp"
+  ],
+  "file": "TripleBit/StatisticsBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TripleBitBuilder.o",
+   "TripleBit/TripleBitBuilder.cpp"
+  ],
+  "file": "TripleBit/TripleBitBuilder.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/PlanGenerator.o",
+   "TripleBit/PlanGenerator.cpp"
+  ],
+  "file": "TripleBit/PlanGenerator.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/PartitionMaster.o",
+   "TripleBit/PartitionMaster.cpp"
+  ],
+  "file": "TripleBit/PartitionMaster.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/OSFile.o",
+   "TripleBit/OSFile.cpp"
+  ],
+  "file": "TripleBit/OSFile.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/triplebitQueryAPI.o",
+   "TripleBit/triplebitQueryAPI.cpp"
+  ],
+  "file": "TripleBit/triplebitQueryAPI.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TripleBitQueryGraph.o",
+   "TripleBit/TripleBitQueryGraph.cpp"
+  ],
+  "file": "TripleBit/TripleBitQueryGraph.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/QuerySemanticAnalysis.o",
+   "TripleBit/QuerySemanticAnalysis.cpp"
+  ],
+  "file": "TripleBit/QuerySemanticAnalysis.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/MemoryBuffer.o",
+   "TripleBit/MemoryBuffer.cpp"
+  ],
+  "file": "TripleBit/MemoryBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/SynchronousBuffer.o",
+   "TripleBit/SynchronousBuffer.cpp"
+  ],
+  "file": "TripleBit/SynchronousBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/ThreadPool.o",
+   "TripleBit/ThreadPool.cpp"
+  ],
+  "file": "TripleBit/ThreadPool.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/Sorter.o",
+   "TripleBit/Sorter.cpp"
+  ],
+  "file": "TripleBit/Sorter.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/URITable.o",
+   "TripleBit/URITable.cpp"
+  ],
+  "file": "TripleBit/URITable.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/SPARQLParser.o",
+   "TripleBit/SPARQLParser.cpp"
+  ],
+  "file": "TripleBit/SPARQLParser.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TripleBitWorker.o",
+   "TripleBit/TripleBitWorker.cpp"
+  ],
+  "file": "TripleBit/TripleBitWorker.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TempFile.o",
+   "TripleBit/TempFile.cpp"
+  ],
+  "file": "TripleBit/TempFile.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/MessageEngine.o",
+   "TripleBit/MessageEngine.cpp"
+  ],
+  "file": "TripleBit/MessageEngine.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TempBuffer.o",
+   "TripleBit/TempBuffer.cpp"
+  ],
+  "file": "TripleBit/TempBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TempMMapBuffer.o",
+   "TripleBit/TempMMapBuffer.cpp"
+  ],
+  "file": "TripleBit/TempMMapBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/HashIndex.o",
+   "TripleBit/HashIndex.cpp"
+  ],
+  "file": "TripleBit/HashIndex.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/BitmapBuffer.o",
+   "TripleBit/BitmapBuffer.cpp"
+  ],
+  "file": "TripleBit/BitmapBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/MMapBuffer.o",
+   "TripleBit/MMapBuffer.cpp"
+  ],
+  "file": "TripleBit/MMapBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TripleBitWorkerQuery.o",
+   "TripleBit/TripleBitWorkerQuery.cpp"
+  ],
+  "file": "TripleBit/TripleBitWorkerQuery.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TurtleParser.o",
+   "TripleBit/TurtleParser.cpp"
+  ],
+  "file": "TripleBit/TurtleParser.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/PredicateTable.o",
+   "TripleBit/PredicateTable.cpp"
+  ],
+  "file": "TripleBit/PredicateTable.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/StringIDSegment.o",
+   "TripleBit/StringIDSegment.cpp"
+  ],
+  "file": "TripleBit/StringIDSegment.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/EntityIDBuffer.o",
+   "TripleBit/EntityIDBuffer.cpp"
+  ],
+  "file": "TripleBit/EntityIDBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/ResultIDBuffer.o",
+   "TripleBit/ResultIDBuffer.cpp"
+  ],
+  "file": "TripleBit/ResultIDBuffer.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/LineHashIndex.o",
+   "TripleBit/LineHashIndex.cpp"
+  ],
+  "file": "TripleBit/LineHashIndex.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/TripleBitRepository.o",
+   "TripleBit/TripleBitRepository.cpp"
+  ],
+  "file": "TripleBit/TripleBitRepository.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/util/PartitionBufferManager.o",
+   "TripleBit/util/PartitionBufferManager.cpp"
+  ],
+  "file": "TripleBit/util/PartitionBufferManager.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/util/BufferManager.o",
+   "TripleBit/util/BufferManager.cpp"
+  ],
+  "file": "TripleBit/util/BufferManager.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/util/Timestamp.o",
+   "TripleBit/util/Timestamp.cpp"
+  ],
+  "file": "TripleBit/util/Timestamp.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/util/HashJoin.o",
+   "TripleBit/util/HashJoin.cpp"
+  ],
+  "file": "TripleBit/util/HashJoin.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/TripleBit/util/SortMergeJoin.o",
+   "TripleBit/util/SortMergeJoin.cpp"
+  ],
+  "file": "TripleBit/util/SortMergeJoin.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/BuildTripleBitFromN3/BuildTripleBit.o",
+   "BuildTripleBitFromN3/BuildTripleBit.cpp"
+  ],
+  "file": "BuildTripleBitFromN3/BuildTripleBit.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/searchAPI/Server.o",
+   "searchAPI/Server.cpp"
+  ],
+  "file": "searchAPI/Server.cpp"
+ },
+ {
+  "directory": "/home/cjgao/Grace",
+  "arguments": [
+   "g++",
+   "-std=c++0x",
+   "-Wall",
+   "-g",
+   "-O2",
+   "-std=c++0x",
+   "-I",
+   "TripleBit",
+   "-c",
+   "-o",
+   "bin/lrelease/searchAPI/searchOldDatabase.o",
+   "searchAPI/searchOldDatabase.cpp"
+  ],
+  "file": "searchAPI/searchOldDatabase.cpp"
+ }
+]
