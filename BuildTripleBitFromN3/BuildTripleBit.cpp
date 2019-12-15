@@ -7,7 +7,6 @@
 #include <MemoryBuffer.h>
 #include "../TripleBit/TripleBitBuilder.h"
 #include "../TripleBit/OSFile.h"
-//#include "../TripleBit/Type.hpp"
 #include "BitmapBuffer.h"
 #include "MMapBuffer.h"
 
