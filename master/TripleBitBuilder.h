@@ -13,7 +13,7 @@ class StatementReificationTable;
 
 class FindColumns;
 
-class BitmapBuffer;
+// class BitmapBuffer;
 
 class Sorter;
 
@@ -37,8 +37,9 @@ using namespace std;
 
 class TripleBitBuilder {
 private:
-	//MySQL* mysql;
-	BitmapBuffer *bitmap;
+	// Created by peng on 2019-12-15, 22:13:57
+	// 主节点上不需要使用
+	//BitmapBuffer *bitmap;
 	PredicateTable *preTable;
 	URITable *uriTable;
 	vector <string> predicates;

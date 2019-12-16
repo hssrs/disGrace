@@ -7,7 +7,6 @@
 
 #include "MemoryBuffer.h"
 #include "MMapBuffer.h"
-#include "BitmapBuffer.h"
 #include "TripleBitBuilder.h"
 #include "PredicateTable.h"
 #include "TripleBit.h"
@@ -197,7 +196,13 @@ int TripleBitBuilder::compare321(const char *left, const char *right) {
 	return cmpTriples(l3, l2, l1, r3, r2, r1);
 }
 
-
+/**
+ * 该函数目前删除了bitmap插入部分，因此该函数现仅用于插入数据的统计信息
+ * TODO: 统计信息部分待更新
+ * @param rawFacts 存放着ID三元组的文件
+ * @param facts 该参数未使用到，历史遗留
+ * @return
+ */
 Status TripleBitBuilder::resolveTriples(TempFile &rawFacts, TempFile &facts) {
 	cout << "Sort by Subject" << endl;
 	ID subjectID, objectID, predicateID;
@@ -309,7 +314,10 @@ Status TripleBitBuilder::resolveTriples(TempFile &rawFacts, TempFile &facts) {
 	}
 	
 	//bitmap->flush();
-	rawFacts.discard();
+	
+	// Created by peng on 2019-12-15, 21:05:07
+	// 按照写代码的原则，这个rawFacts是从外面传进来的，所以此处discard应该写在外部
+	// rawFacts.discard();
 	sortedByObject.discard();
 	sortedBySubject.discard();
 	

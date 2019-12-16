@@ -26,6 +26,8 @@ source-dir-to-binary-dir = $(addprefix $(BINARY_DIR)/,$1)
 source-to-object = $(call source-dir-to-binary-dir, $(subst .cpp,.o,$1))
 
 # $(subdirectory)
+# $(words text) Returns the number of words in text.
+# Thus, the last word of text is $(word $(words text),text).
 subdirectory = $(patsubst %/module.mk,%,                \
                  $(word                                 \
                    $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST)))
@@ -79,7 +81,7 @@ define one-compile-rule
 endef
 
 
-modules      := TripleBit TripleBitQuery BuildTripleBitFromN3 searchAPI
+modules      := TripleBit TripleBitQuery BuildTripleBitFromN3 searchAPI master
 programs     := 
 libraries    :=
 sources      :=

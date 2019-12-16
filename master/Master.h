@@ -12,7 +12,6 @@
 #include <MemoryBuffer.h>
 #include "TripleBitBuilder.h"
 #include "OSFile.h"
-#include "BitmapBuffer.h"
 #include "MMapBuffer.h"
 #include "PredicateTable.h"
 #include "TripleBit.h"
@@ -71,7 +70,9 @@ void startServer(vector <string> slaveName);
 
 void parserTriplesFile(string fileName, TripleBitBuilder *builder);
 
-void stringIDProjection(const string &dataFile);
+void startBuild(const string &dataFile);
+
+void realDataDecompose(TempFile &rawFacts);
 
 #endif
 /* Master.h */

@@ -228,7 +228,22 @@ int createSingleDatabase(string &dataFile, string &slaveName, string &last) {
 }
 
 /**
- *
+ * 由于rawFacts文件格式问题，使用原来的java实现需要对文件进行多次读写
+ * 考虑到可能存在的性能问题，把原来数据分解功能用该函数进行简单实现
+ * @param rawFacts ID数据文件
+ */
+void realDataDecompose(TempFile &rawFacts) {
+	MemoryMappedFile mappedIn;
+	assert(mappedIn.open(rawFacts.getFile().c_str()));
+	ID s, p, o;
+	
+	const char *reader = mappedIn.getBegin(), *limit = mappedIn.getEnd();
+	
+	
+}
+
+/**
+ * 该函数专门用来解析演示用的数据集，非常dirty的操作
  * @param fileName 原始数据集
  * @param builder builder类实例
  */
@@ -260,19 +275,19 @@ void parserTriplesFile(string fileName, TripleBitBuilder *builder, TempFile &raw
 /**
  * 将原始数据文件映射成ID文件
  * @param dataFile 原始数据文件
+ * @param targetDir 分解后的数据要存放的目录
  */
-void stringIDProjection(const string &dataFile, const string &targetDir) {
+void startBuild(const string &dataFile, const string &targetDir) {
 	if (!OSFile::directoryExists(targetDir)) {
 		OSFile::mkdir(targetDir);
 	}
 	
 	TripleBitBuilder *builder = new TripleBitBuilder(targetDir);
-	TempFile rawfacts("./test");
+	TempFile rawFacts("./test");
 	if (LANG) {
 		// Created by peng on 2019-12-15, 16:35:09
 		// chinese case
 		parserTriplesFile(dataFile, builder, rawfacts);
-		
 	} else {
 		// Created by peng on 2019-12-15, 16:35:21
 		// english case
@@ -299,12 +314,19 @@ void stringIDProjection(const string &dataFile, const string &targetDir) {
 	
 	// Created by peng on 2019-12-15, 16:50:40
 	// rawfacts文件中存放的是
-	// ID ID ID
-	// ID ID ID
-	// 的形式
+	// IDIDID (小端方式，紧挨着存放)
+	// IDIDID
+	// 的形式，由原始数据文件经过映射生成。
 	rawFacts.flush();
 	
-	builder->resolveTriples(rawFacts, rawfacts);
+	// Created by peng on 2019-12-15, 21:37:58
+	// FIXME：此处应该调用数据分解的代码
+	system("dis-triplebitCHN-1.0-SNAPSHOT-jar-with-dependencies.jar")
+	
+	// Created by peng on 2019-12-15, 21:38:54
+	// FIXME：数据分解之后应该生成多个rawFacts文件，每个slave节点一个，
+	// FIXME：在slave节点直接调用完整的resolveTriples函数(bitmap插入未被删除的函数)
+	builder->resolveTriples(rawFacts, rawFacts);
 	rawFacts.discard();
 	
 	builder->endBuild();

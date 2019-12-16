@@ -6,7 +6,6 @@
  */
 
 #include "StatisticsBuffer.h"
-#include "BitmapBuffer.h"
 #include "MMapBuffer.h"
 #include "HashIndex.h"
 #include "EntityIDBuffer.h"
